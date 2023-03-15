@@ -1,0 +1,14 @@
+header {
+  width: 100%;
+  background-color: #ADBCC1;
+
+  display: block;
+}
+
+header a {
+  color: #fbf5f5;
+}
+
+/* .header-middle-area {
+  width: 100%;
+} */

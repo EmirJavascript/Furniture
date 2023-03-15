@@ -1,0 +1,40 @@
+@import url(./css/header.css);
+@import url(./css/header/header-middle.css);
+@import url(./css/header/header-top.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: calc(100% - 40px * 2);
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    width: calc(100% - 60px * 2);
+  }
+
+  .row {
+    display: block;
+    margin: 15px 0;
+  }
+}
