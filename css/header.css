@@ -1,8 +1,10 @@
 header {
   width: 100%;
+  height: auto;
   background-color: #ADBCC1;
-
   display: block;
+
+  margin-bottom: 25px;
 }
 
 header a {
