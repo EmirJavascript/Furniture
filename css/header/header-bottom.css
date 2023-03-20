@@ -59,25 +59,6 @@ nav li:hover > ul {
   z-index: 5;
 }
 
-nav > .megamenu > ul {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav .megamenu ul li{
-  display: flex;
-  flex-direction: column;
-  padding-left: 15px;
-}
-
-nav .megamenu:hover ul {
-  width: 800px;
-  display: block;
-  z-index: 5;
-} 
-
 @media screen and (max-width: 990px) {
   .mainmenu-area {
     display: none;

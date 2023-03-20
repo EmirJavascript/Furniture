@@ -31,6 +31,12 @@ li {
   align-items: center;
 }
 
+.overlay {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #4d4d4d;
+}
+
 @media screen and (max-width: 760px) {
   .container {
     width: calc(100% - 60px * 2);
