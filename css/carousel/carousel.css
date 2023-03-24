@@ -1,122 +1,49 @@
-.slider-part,
-#slider,
-.slide-content {
-    margin: 0;
-    padding: 0;
-    font-family: 'Raleway', sans-serif;
-    width: 100%;
-    height: 80vh;
-    overflow-x: hidden;
+/* .wrapper {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
 }
-.slider-part{
+
+.wrapper .carousel {
+  display: flex;
+}
+
+.wrapper .carousel .carousel-item {
+  white-space: nowrap;
+}
+
+.wrapper span {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #ffb3b3;
+  text-align: center;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.carousel > * {
+  width: calc(100% / 2);
+  object-fit: cover;
+}
+
+.carousel-item-first {
+  background-image: url('https://htmldemo.net/artfurniture/artfurniture/assets/img/slider/1.jpg');
+}
+
+.carousel-item-two {
+  background-image: url('https://htmldemo.net/artfurniture/artfurniture/assets/img/slider/2.jpg');
+} */
+
+/* .carousel-item {
+  width: 50%;
   position: relative;
 }
-.slide{
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.slide1{
-  background-image: url(https://www.lampsplus.com/images/landing-pages/table-lamps-latest/mobile/mobile-table-lamps-splash.jpg);
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-}
-.slide2{
-  background-image: url(https://www.dan-form.com/media/vtencbnb/danform-glam-dining-chairs-simpy-beige-and-eclipse-oval-table-in-copenhagen-apartment.jpg?width=1920&mode=crop&heightratio=0.5625);
-  object-fit: cover;
-}
-.slide-content{
-  width: 70%;
-  padding: 0 0 0 60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  text-align: left;
-  gap: 15px;
-}
-
-.slide-content p:first-child {
-  color: #252531;
-  font-size: 36px;
-  font-weight: 200;
-  text-transform: uppercase;
-}
-
-.slide-content h1 {
-  color: #252531;
-  font-size: 48px;
-  font-weight: bold;
-  line-height: 35px;
-  text-transform: uppercase;
-}
-
-.slide-content p:last-child {
-  color: #252531;
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 25px;
-}
-
-.slide-content button {
-  border: none;
-  padding: 10px 30px;
-  text-transform: uppercase;
-  color: #ffffff;
-  background-color: #252531;
-}
-
-.arrow{
-  cursor: pointer;
-  height: 0;
-  width: 0;
-  border-style: solid;
-  position: absolute;
-  top: 95%;
-  left: calc(50% - 20px);
-  margin-top: -35px
-}
-#arrow-left{
-  /* border-width: 30px 40px 30px 0;
-  border-color: transparent #fff transparent #fff; */
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  border-color: #ffffff;
-  margin-left: 30px;
-}
-#arrow-right{
-  /* border-width: 30px 0 30px 40px;
-  border-color: transparent #fff transparent #fff; */
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  border-color: #ffffff;
-  margin-right: 30px;
-}
-
-@media screen and (max-width: 940px) {
-  .slide-content h1 {
-    font-size: 38px;
-  }
-}
-
-@media screen and (max-width: 860px) {
-  .slide-content {
-    width: 80%;
-  }
-
-  .slide-content p:first-child {
-    font-size: 24px;
-  }
-
-  .slide-content h1 {
-    font-size: 36px;
-  }
-}
-
-@media screen and (max-width: 520px) {
-  .slide-content {
-    width: 100%;
-    padding: 0 0 0 20px;
-  }
-}
+} */

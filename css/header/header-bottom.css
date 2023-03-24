@@ -1,9 +1,11 @@
 .menu-wrapper {
   width: 100%;
+  height: auto;
 }
 
 .main-menu {
   width: 100%;
+  height: auto;
 }
 
 nav {
@@ -13,6 +15,7 @@ nav {
 }
 
 .main-menu nav ul {
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,18 +28,15 @@ nav {
 
 .main-menu nav a {
   display: block;
+  font-size: 13px;
   padding: 0 30px;
-}
-
-.main-menu nav a:hover {
-  background-color: #b8b8b8;
 }
 
 .main-menu nav ul ul {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #333;
+  background-color: #fff;
   display: none;
   transition: all 0.4s ease;
 }
@@ -45,9 +45,18 @@ nav {
   display: block;
 }
 
+.main-menu nav ul ul li a {
+  color: #000;
+}
+
 nav li:hover > ul {
   display: block;
+  margin-top: 18px;
+  width: 250px;
+  padding: 20px;
+  font-size: 12px;
   transition: all 0.4s ease;
+  z-index: 5;
 }
 
 @media screen and (max-width: 990px) {
