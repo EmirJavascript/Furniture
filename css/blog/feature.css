@@ -5,6 +5,7 @@
     width: 100%;
     gap: 20px;
     /* border: 1px solid cyan; */
+    justify-content: center;
 }
 
 .feature-info {
