@@ -1,15 +1,17 @@
 .feature-container {
     display: flex;
-    /* padding-left: 30px; */
     margin-top: 30px;
     width: 100%;
     gap: 20px;
-    /* border: 1px solid cyan; */
     justify-content: center;
+
 }
 
 .feature-info {
     padding-top: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .feature-title {
@@ -86,5 +88,14 @@
 @media screen and (max-width: 1180px) {
     .feature {
         flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .feature-container {
+        flex-direction: column;
+        align-items: center;
+        /* padding: 0 0 0 40px; */
     }
 }
