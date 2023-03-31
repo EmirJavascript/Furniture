@@ -6,6 +6,7 @@
 .main-menu {
   width: 100%;
   height: auto;
+  
 }
 
 nav {
@@ -17,7 +18,7 @@ nav {
 .main-menu nav ul {
   width: 80%;
   display: flex;
-  justify-content: space-between;
+  gap: 35px;
   align-items: center;
 }
 
@@ -28,9 +29,26 @@ nav {
 
 .main-menu nav a {
   display: block;
-  font-size: 13px;
+  font-size: 12px;
   padding: 0 30px;
 }
+
+.main-menu nav li:not(:last-child)::after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: -25px;
+  bottom: 0px;
+  left: -10px;
+  border-right: 1px solid #c6cfd2;
+  
+}
+
+.main-menu nav li:last-child::after {
+  display: none;
+}
+
+
 
 .main-menu nav ul ul {
   position: absolute;

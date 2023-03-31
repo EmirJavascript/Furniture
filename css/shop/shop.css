@@ -5,13 +5,13 @@
 }
 
 .left-side {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 20%;
     height: 100%;
 }
 
 .right-side {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80%;
     height: 100%;
 }
@@ -25,6 +25,141 @@
 }
 
 .shop-title {
+    color: #444;
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 15px;
 }
+
+.shop-sort-box {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #e9e9e9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 10px;
+    padding: 0 10px 0 10px;
+}
+
+.shop-slider-box {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #e9e9e9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 10px 0 10px;
+    margin-top: 30px;
+}
+
+.filter-scrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.filter {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+
+.sort-scrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.shop-itemS {
+    display: flex;
+    gap: 25px; 
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.shop-item {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    align-items: center;
+    gap: 5px;
+}
+
+.shop-item > .shop-item-name {
+    color: #676767;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+}
+
+.shop-item > .shop-item-price {
+    color: #676767;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+.shop-item-photo {
+    background-image: url(../../images-shop/shop-item-photo.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+select {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #f1f1f1;
+    box-shadow: none;
+    color: #444444;
+    cursor: pointer;
+    font-size: 13px;
+    height: 30px;
+    margin: 2px 0 0;
+    text-transform: capitalize;
+    width: auto;
+}
+
+option {
+    background: #fff;
+    border: 0px solid #626262;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+
+
