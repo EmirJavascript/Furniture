@@ -46,8 +46,8 @@
     /* border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
-    gap: 55px;
-    justify-content: center;
+    /* gap: 55px; */
+    justify-content: space-around;
 
   }
 
@@ -58,7 +58,7 @@
 
 @media screen and (max-width: 880px) {
     .scrapper-items {
-        gap: 65px;
+        gap: 50px;
     }
 }
 
