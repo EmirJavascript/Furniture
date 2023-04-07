@@ -15,6 +15,10 @@ nav {
   text-transform: uppercase;
 }
 
+.catalog-box:hover {
+  background-color: #90a1a7
+}
+
 .main-menu nav ul {
   width: 80%;
   display: flex;
@@ -47,6 +51,7 @@ nav {
   
 }
 
+
 .main-menu nav li:last-child::after {
   display: none;
 }
@@ -68,6 +73,7 @@ nav {
 
 .main-menu nav ul li:hover ul {
   display: block;
+
 }
 
 .main-menu nav ul li ul li a {
