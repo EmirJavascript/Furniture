@@ -91,7 +91,11 @@ footer {
     width: 100%;
     height: 100px;
   
-  }
+}
+
+.footer-b-left {
+    text-align: center;
+}
 
 @media screen and (max-width: 1180px){
     footer {
@@ -133,6 +137,7 @@ footer {
 }
 
 .partner path{
+    
     transition: fill 0.45s;
 }
 
@@ -195,4 +200,61 @@ footer {
     background-color: #f6f6f6;
     position: absolute;
     left: 90%;
+}
+
+.container-message {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px 0 30px;
+    margin-top: 100px;
+}
+
+.message-block {
+    width: 30%;
+    height: 420px;
+    background-color: lightgrey;
+
+    padding: 0 40px 0 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.message-photo {
+    width: 130px;
+    height: 130px;
+    /* background-color: YELLOW; */
+    background-image: url(https://kartinkin.net/pics/uploads/posts/2022-08/1660617551_30-kartinkin-net-p-raian-gosling-oboi-krasivo-34.jpg);
+    margin-top: -60px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 10px solid white;
+}
+
+.message-text {
+    font-size: 1.0625rem;
+    line-height: 2;
+    text-align: center;
+}
+
+.message-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.message-bottom > h2 {
+    color: #2590f4;
+    font-weight: 700;
+}
+
+.message-bottom > p {
+    margin: 7px 0 7px 0;
 }
