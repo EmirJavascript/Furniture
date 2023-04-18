@@ -4,8 +4,8 @@
 }
 
 .logo a img {
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
 }
 
 .email {
@@ -49,12 +49,6 @@
 
 .header-search button a {
   color: #ADBCC1;
-}
-
-.cart-box-wrapper {
-  display: flex;
-  flex-direction: column;
-  color: #fff;
 }
 
 .cart-info {
