@@ -196,8 +196,8 @@ span {
 .shop-itemS {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
-    justify-content: space-around;
+    gap: 35px;
+    /* justify-content: space-around; */
 }
 
 .shop-item {
@@ -260,6 +260,10 @@ option {
     }
     .left-side {
         width: 100%;
+    }
+
+    .shop-itemS {
+        justify-content: center;
     }
 }
 
