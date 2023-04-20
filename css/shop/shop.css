@@ -249,4 +249,18 @@ option {
     font-size: 14px;
 }
 
+@media screen and (max-width: 1090px) {
+    .shop-scrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10px;
+    }    
+    .right-side {
+        width: 100%;
+    }
+    .left-side {
+        width: 100%;
+    }
+}
+
 
