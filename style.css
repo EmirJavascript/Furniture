@@ -115,6 +115,12 @@ body {
   min-height: 100vh;
   background-color: #4d4d4d;
 }
+.media img{
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
 
 @media screen and (max-width: 760px) {
   .container {
