@@ -443,3 +443,9 @@ h4 {
   height: 0.06px;
   border-top: 1px solid #c0cace;
 }
+
+.footer-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
